@@ -1,0 +1,21 @@
+.child {
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__btns {
+      display: flex;
+    }
+    &__btn {
+      margin-left: 5px;
+    }
+    &__btn_isEditable {
+      border: 2px solid green
+    }
+    &__btn_notEditable {
+      border: 2px solid red
+    }
+  }
+  

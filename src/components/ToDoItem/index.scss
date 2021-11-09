@@ -1,0 +1,14 @@
+.todo {
+    padding: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__btns {
+      display: flex;
+    }
+    &__btn {
+      margin-left: 5px;
+    }
+  }
